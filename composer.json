@@ -1,0 +1,22 @@
+{
+    "name": "root/jasonfw",
+    "description": "this is a simple and self-build framework",
+    "authors": [
+        {
+            "name": "jason-geng",
+            "email": "jasongeng88@gmail.com"
+        }
+    ],
+    "require": {
+        "noahbuscher/macaw": "dev-master",
+        "illuminate/database": "*",
+        "filp/whoops": "*",
+        "nette/mail": "*",
+        "predis/predis": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JFW\\": "app/"
+        }
+    }
+}
